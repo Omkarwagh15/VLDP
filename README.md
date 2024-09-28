@@ -1,12 +1,6 @@
 # OrganDonation-Using-Block-Chain
 Organ Donation Management Using Block Chain Technology
 
-![Doc1_page-0001 (2)](https://github.com/Dhatchanamoorthi8/OrganDonation-Using-Block-Chain/assets/111693185/3a1d3de4-007a-48a3-98e5-ff34c89106d9)
-
-# SYSTEM DIAGRAM
-![diagram_page-0002](https://github.com/Dhatchanamoorthi8/OrganDonation-Using-Block-Chain/assets/111693185/f4b01c64-767c-44e2-a1bf-96ba6a5347a7)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Prerequisites
 
 This software must be installed on your computer to run the program.
@@ -69,9 +63,3 @@ Now that everything is set-up, you can run the server.
 2. Open a browser and go to http://localhost:8080/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Team Members
-
-* [Dhatchana Moorthi AP](https://github.com/Dhatchanamoorthi8)
-* [SubashChandran P](https://github.com/subash037)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
