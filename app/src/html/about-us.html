@@ -38,56 +38,90 @@
         </div> <!-- end of conatiner -->
     </header>
 
-    <main>
-       
+   <!-- Add Bootstrap CSS and JS for Carousel functionality -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-        
-            <div class="container">
-                <div class="row center-box">
-                    <div class="col-lg-4">
-                        <div class="content-box profile"><br>
-                            <h1 id="heading">Team</h1>
-                            
-                            <h3>Yash</h3>
-                        </div>
-                    </div>
-                </div> <!-- end of row -->
-            </div> <!-- end of conatiner -->
-            <div class="container">
-                <div class="row">
-				<center>
-                    <div class="col-lg-4">
-                        <div class="content-box profile">
-                            
-                            <h3>Omkar</h3>
-                        </div>
-						
-                    </div>
-                        </div>
-                    </div>
-                </div>    
-            </div>
- 
+<main>
+    <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000"> <!-- Slower timer: 5000ms (5 seconds) -->
+        <div class="carousel-inner">
 
-       
-    </main>
-
-
-    <footer>
-        <div class="container">
-            <div class="row center-box">
-                <div class="col-4">
-                    <div class="footer-logo"><img src="../images/organ-donation-platform-logo-white.svg" alt=""></div>
-                </div>    
-        
-                <div class="col-12">
-                    <div id="copyright">
-                        <p>Copyright © 2024 Organ Donation Platform - All rights reserved</p>
+            <!-- Omkar Wagh -->
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                    <div class="content-box profile" style="text-align: center;">
+                        <img src="https://via.placeholder.com/300" alt="Omkar Wagh" style="border-radius: 50%; width: 300px; height: 300px;"> <!-- Larger image -->
+                        <h3>Omkar Wagh</h3>
+                        <p>Lead developer with expertise in blockchain and smart contracts, focused on delivering secure and scalable solutions for organ donation platforms.</p>
                     </div>
                 </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of conatiner -->        
-    </footer>
-    
+            </div>
+
+            <!-- Yash Shinde -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="content-box profile" style="text-align: center;">
+                        <img src="https://via.placeholder.com/300" alt="Yash Shinde" style="border-radius: 50%; width: 300px; height: 300px;"> <!-- Larger image -->
+                        <h3>Yash Shinde</h3>
+                        <p>Backend specialist skilled in cloud computing and server management, ensuring the platform's infrastructure is robust and secure.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pranay Mane -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="content-box profile" style="text-align: center;">
+                        <img src="https://via.placeholder.com/300" alt="Pranay Mane" style="border-radius: 50%; width: 300px; height: 300px;"> <!-- Larger image -->
+                        <h3>Pranay Mane</h3>
+                        <p>Front-end developer responsible for designing intuitive user interfaces and ensuring smooth user experiences across the platform.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Omkar V -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="content-box profile" style="text-align: center;">
+                        <img src="https://via.placeholder.com/300" alt="Omkar V" style="border-radius: 50%; width: 300px; height: 300px;"> <!-- Larger image -->
+                        <h3>Omkar V</h3>
+                        <p>Full-stack developer focused on integrating APIs and enhancing system performance for a seamless, real-time organ tracking feature.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</main>
+
+
+<footer>
+    <div class="container">
+        <div class="row center-box">
+            <div class="col-4">
+                <div class="footer-logo" style="display: flex; align-items: center; justify-content: center; margin-bottom: 10px;">
+                    <img src="../images/organ-donation-platform-logo-white.svg" alt="Logo" style="max-width: 100%; height: auto;">
+                </div>
+            </div>    
+
+            <div class="col-12">
+                <div id="copyright" style="color: #fff; text-align: center; padding: 10px 0; font-weight: 300;">
+                    <p>Copyright © 2024 Organ Donation Platform - All rights reserved</p>
+                </div>
+            </div>
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->        
+</footer>
+
 </body>
 </html>

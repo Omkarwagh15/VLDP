@@ -337,3 +337,6 @@ footer{
     padding: 25px;
     font-weight: 300;
 }
+.carousel-item {
+    min-height: 570px; /* Adjust height based on your design */
+}
